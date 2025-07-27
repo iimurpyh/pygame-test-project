@@ -7,6 +7,7 @@ screen = pygame.display.set_mode((400, 400))
 
 def create_test_map():
     objects.Platform(pygame.Rect(0, 70, 100, 30))
+    objects.Player(pygame.Rect(25,20,50,50))
 
 def run():
     running = True
